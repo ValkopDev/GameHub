@@ -125,7 +125,7 @@ local player = game.Players.LocalPlayer
 
 function onclick()
 	player.PlayerGui.GameHUBScript.Main.GamesFolder.Header.Visible = true
-	player.PlayerGui.GameHUBScript.Main.GamesFolder.LuckyBlock.Visible = false
+	player.PlayerGui.GameHUBScript.Main.GamesFolder.LuckyBlock.Visible = true
 	player.PlayerGui.GameHUBScript.Main.GamesFolder.BreakIn.Visible = true
 	player.PlayerGui.GameHUBScript.Main.GamesFolder.LoS.Visible = true
 	player.PlayerGui.GameHUBScript.Main.InfoFolder.Header.Visible = false
